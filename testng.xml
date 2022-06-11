@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+ <parameter name="firstName" value="sathya"></parameter>
+  <parameter name="lastName" value="saki"></parameter>
+  <parameter name="userEmail" value="sathyasaki2595@gmail.com"></parameter>
+  <parameter name="userNumber" value="9940742148"></parameter>
+    <classes>
+      <class name="testNG.AutomateByDemoQA"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
